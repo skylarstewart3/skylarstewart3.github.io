@@ -46,7 +46,7 @@ export var soundArray = []; //list of sounds loaded
 export var wallSound = new soundFile("tap-percussive-3.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("tap-resonant-3.mp3");
+export var paddleSound = new soundFile("magical-sound-3.mp3");
 soundArray.push(paddleSound);
 
 export var scoreSound = new soundFile("ocean_waves-3.mp3");
