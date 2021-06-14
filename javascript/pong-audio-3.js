@@ -49,10 +49,10 @@ soundArray.push(wallSound); //add sound to list of sounds
 export var paddleSound = new soundFile("tap-resonant-3.mp3");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("ocean_waves-3.mp3");
+export var scoreSound = new soundFile("ocean-waves-3.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("Adventure_Meme-3.mp3");
+export var ambientSound = new soundFile("Adventure-Meme-3.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
