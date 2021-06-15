@@ -52,7 +52,7 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("ocean-waves-3.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("haunted-song.mp3");
+export var ambientSound = new soundFile("fireplace.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
