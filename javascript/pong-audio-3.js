@@ -52,10 +52,9 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("haunting.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("piano.mp3");
-soundArray.push(ambientSound);
-ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -20; //turn down volume
+export var backgroundSound = new soundFile("piano.mp3");
+soundArray.push(backgroundSound);
+backgroundSound.player.loop - true; //turn on looping
 
 export var adventureMusic = new soundFile("haunted-forest.mp3");
 soundArray.push(adventureMusic);
