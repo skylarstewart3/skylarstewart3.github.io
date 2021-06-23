@@ -55,6 +55,7 @@ soundArray.push(scoreSound);
 export var backgroundSound = new soundFile("piano.mp3");
 soundArray.push(backgroundSound);
 backgroundSound.player.loop - true; //turn on looping
+backgroundSound.player.volume.value = -16;
 
 export var adventureMusic = new soundFile("haunted-forest.mp3");
 soundArray.push(adventureMusic);
