@@ -46,13 +46,13 @@ export var soundArray = []; //list of sounds loaded
 export var wallSound = new soundFile("page-turn.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("name.mp3");
+export var paddleSound = new soundFile("paddle.mp3");
 soundArray.push(paddleSound);
 
 export var scoreSound = new soundFile("ambiance.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("background1.mp3");
+export var ambientSound = new soundFile("background2.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -7; //turn down volume
